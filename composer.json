@@ -8,12 +8,18 @@
     "ext-json": "*",
     "vlucas/phpdotenv": "^5.2"
   },
-  "require-dev": {
-  },
   "config": {
     "optimize-autoloader": true,
     "preferred-install": "dist",
     "sort-packages": true
+  },
+  "autoload": {
+    "files": [
+      "helpers.php"
+    ],
+    "classmap": [
+      "src"
+    ]
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
