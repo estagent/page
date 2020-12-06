@@ -1,0 +1,42 @@
+{
+  "name": "page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production",
+    "prod": "mix --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-cookie": "^2.2.1",
+    "jstz": "^2.1.1",
+    "nanobar": "^0.4.2",
+    "swiper": "^6.3.5"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.1.4",
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.0.4",
+    "laravel-mix": "^6.0.0-beta.15",
+    "lodash": "^4.17.20",
+    "postcss": "^8.1.14",
+    "postcss-import": "^13.0.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.26.11",
+    "sass-loader": "^8.0.2",
+    "tailwindcss": "^2.0.1",
+    "umbrellajs": "^3.2.3",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
